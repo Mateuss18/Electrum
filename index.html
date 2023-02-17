@@ -31,19 +31,19 @@
           <span><i class="fas fa-phone"></i> (19) 99648-9692</span>
           <span><i class="far fa-envelope"></i> electrum@gmail.com</span>
           <span><i class="fas fa-map-marker-alt"></i> Rua Thunder, 717</span>
-        </div>
-        <div class="header-user-top-menu">
-          <span
-            ><i class="fas fa-dollar sign"> <a href="#">BRL</a></i></span
-          >
-          <span
-            ><i class="fas fa-user"> <a href="#">Minha Conta</a></i></span
-          >
+          <div class="header-user-top-menu">
+            <span
+              ><i class="fas fa-dollar sign"> <a href="#">BRL</a></i></span
+            >
+            <span
+              ><i class="fas fa-user"> <a href="#">Minha Conta</a></i></span
+            >
+          </div>
         </div>
       </div>
       <div class="main-header">
         <div class="main-header-container">
-          <a href="#">Electrum <i class="fas fa-bolt"></i></a>
+          <a href="#" id="brand">Electrum <i class="fas fa-bolt"></i></a>
           <form action="" id="search-form">
             <input type="text" id="search" placeholder="Busque aqui" />
             <input type="submit" class="btn btn-half" value="Pesquisar" />
@@ -88,18 +88,21 @@
     <!-- BANNERS -->
     <div class="banners">
       <div class="banner" id="banner-1">
+        <div class="banner-cover"></div>
         <div class="banner-content">
           <h2>Promoção de Notebook</h2>
           <a href="#">Ver Mais <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <div class="banner" id="banner-2">
+        <div class="banner-cover"></div>
         <div class="banner-content">
           <h2>Lançamento e Acessórios</h2>
           <a href="#">Ver Mais <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
       <div class="banner" id="banner-3">
+        <div class="banner-cover"></div>
         <div class="banner-content">
           <h2>Câmeras Potentes</h2>
           <a href="#">Ver Mais <i class="fas fa-arrow-circle-right"></i></a>
@@ -110,21 +113,6 @@
     <div class="products-grid">
       <h2>Produtos Novos</h2>
       <div class="products-grid-container">
-        <div class="product-grid-card">
-          <span class="label new">New</span>
-          <img src="./assets/prod-1.jpg" alt="Monitor" />
-          <p class="category">Categorio</p>
-          <h3 class="product-name">Monitor</h3>
-          <p class="product-price">R$ 1499,90</p>
-          <div class="rating-box">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <button class="btn">Comprar</button>
-        </div>
         <div class="product-grid-card">
           <span class="label new">New</span>
           <img src="./assets/prod-1.jpg" alt="Monitor" />
@@ -235,7 +223,7 @@
           <button class="btn">Comprar</button>
         </div>
         <div class="product-grid-card">
-          <span class="label hot">Hot</span>
+          <span class="label new">Hot</span>
           <img src="./assets/prod-6.jpg" alt="Samsung Galaxy Note 20" />
           <p class="category">Categorio</p>
           <h3 class="product-name">Samsung Galaxy Note 20</h3>
@@ -250,7 +238,7 @@
           <button class="btn">Comprar</button>
         </div>
         <div class="product-grid-card">
-          <span class="label hot">Hot</span>
+          <span class="label new">Hot</span>
           <img src="./assets/prod-7.jpg" alt="Notebook Acer Aspire 5" />
           <p class="category">Categorio</p>
           <h3 class="product-name">Notebook Acer Aspire 5</h3>
@@ -265,7 +253,7 @@
           <button class="btn">Comprar</button>
         </div>
         <div class="product-grid-card">
-          <span class="label hot">Hot</span>
+          <span class="label new">Hot</span>
           <img src="./assets/prod-8.jpg" alt="Mouse Gamer" />
           <p class="category">Categorio</p>
           <h3 class="product-name">Mouse Gamer</h3>
@@ -293,6 +281,12 @@
         />
         <input type="submit" class="btn btn-half" value="Assinar" />
       </form>
+      <div class="social-media">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest-p"></i>
+      </div>
     </div>
     <!-- FOOTER -->
     <footer class="footer">

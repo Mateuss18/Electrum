@@ -129,7 +129,7 @@ ul {
   width: 18px;
   border-radius: 50%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 .header .main-header-container .header-actions-menu .wishlist-container i,

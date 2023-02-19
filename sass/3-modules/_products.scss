@@ -12,6 +12,11 @@
   justify-content: center;
   align-items: center;
 
+  @include mixins-base.mobile {
+    width: 90%;
+    margin: 1rem;
+  }
+
   &:hover {
     border-color: variables.$primary-color;
   }

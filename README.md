@@ -21,7 +21,9 @@
 
 ### [🔗 Clique aqui para vizualizar a página!](https://mateuss18.github.io/Electrum/)
 <div align="center">
-  <img src="./assets/readme-image.png">
+
+![bandicam 2023-03-05 23-16-11-076](https://user-images.githubusercontent.com/71786964/223004344-fe483897-fe60-46d8-adcc-aad3d0a4a3bf.jpg)
+
 </div>
 
 <br>
